@@ -125,6 +125,6 @@ export PATH=~/bin:$PATH
 
 export DROPBOX=/mnt/drive_d/Erik/docs/Dropbox
 
-
+alias psc='ps xawf -eo pid,user,cgroup,args'
 
 

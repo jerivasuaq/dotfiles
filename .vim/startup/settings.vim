@@ -7,6 +7,7 @@ set incsearch
 set wildmenu
 syntax enable
 set synmaxcol=0
+syn on
 set term=screen-256color
 set display=uhex
 set shortmess=aAIsT
@@ -37,12 +38,12 @@ set linespace=0
 set history=1000
 set list listchars=tab:› ,trail:-,extends:>,precedes:<,eol:¬
 
-set laststatus=2
-set ffs=unix
-set mouse=a
-set vb
-set ttym=xterm2
-
+"set laststatus=2
+"set ffs=unix
+"set mouse=a
+"set vb
+"set ttym=xterm
+"
 set wrap
 
 set tags=~/.vim/tags/tags
@@ -62,4 +63,5 @@ else
 endif
 
 let g:Powerline_symbols = 'fancy'
-call Pl#Theme#InsertSegment('ws_marker', 'after', 'lineinfo')
+"call Pl#Theme#InsertSegment('ws_marker', 'after', 'lineinfo')
+
